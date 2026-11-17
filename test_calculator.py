@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, division
+from calculator import add, subtract, multiply, divide
 
 def test_add():
 	assert add(2,3) == 5
@@ -10,12 +10,12 @@ def test_multiply():
 	assert multiply(2,5) == 10
 
 def test_divide():
-	assert  division(6,2) == 3
+	assert  divide(6,2) == 3
 
 def test_divide_uneven():
 	#arrange
 	a, b = 5, 2
 	#act
-	result = division(a, b)
+	result = divide(a, b)
 	#assert
 	assert result == 2.5

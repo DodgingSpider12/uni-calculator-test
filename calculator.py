@@ -8,7 +8,7 @@ def subtract(a,b):
 def multiply(a,b):
 	return a*b
 
-def division(a,b):
+def divide(a,b):
 	return a / b
 
 def main():
@@ -23,7 +23,7 @@ def main():
 		elif operator == "*":
 			print("result", multiply(firstNum, secondNum))
 		elif operator == "/":
-			print("result", division(firstNum, secondNum))
+			print("result", divide(firstNum, secondNum))
 		else:
 			print("Unknown operator", operator)
 
