@@ -1,4 +1,3 @@
-# bad comment
 def add(a,b):
 	return a + b
 
@@ -10,6 +9,12 @@ def multiply(a,b):
 
 def divide(a,b):
 	return a / b
+
+def circleArea(r):
+	if >= 0:
+		return 3.14 * r * r
+	else:
+		return "NaN"
 
 def main():
 	while True:
