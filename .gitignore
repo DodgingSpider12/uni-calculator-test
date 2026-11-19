@@ -4,4 +4,5 @@ __pycache__/
 .Rhistory
 .venv/
 .pytest_cache/
+.evidence/
 keep-demo.log
